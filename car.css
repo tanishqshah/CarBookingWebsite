@@ -1,0 +1,249 @@
+
+*
+{
+    box-sizing: border-box;
+}
+
+.main-container
+{
+    width: 100%;
+    min-height: 90vh;
+    padding: 30px;
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container-child
+{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.5%;
+    row-gap: 30px;
+    /* background-color: red; */
+}
+
+.car 
+{
+  
+    width: 31%;
+    background-color: white;
+    padding:10px;
+    border-radius:10px;
+}
+
+.car-img 
+{
+    width: 100%;
+    height: 250px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-img  img 
+{
+    width: 100%;
+}
+
+.car-details 
+{
+    height:200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap:8px;
+    
+}
+
+.car h1 
+{
+    font-size: 30px;
+    font-family: segoe UI;
+    font-weight: 400;
+}
+
+
+
+
+.car h2 
+{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+
+/* register css  */
+
+
+.form-container
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+form 
+{
+    width: 30%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+}
+
+input,button
+{
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+
+/* single car page css  */
+
+.container-section 
+{
+    width: 48.25%;
+    height: 600px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+   
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-section:nth-of-type(1)
+{
+    justify-content: space-between;
+}
+
+
+.container-section:nth-of-type(2)
+{
+    justify-content: center;
+    row-gap: 15px;
+}
+
+
+.big-car-img 
+{
+    width: 100%;
+    height: 400px;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.big-car-img img 
+{
+    width: 100%;
+}
+
+.img-options
+{
+    width: 100%;
+    
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.img-option 
+{
+    width: 70px;
+    /* background-color: purple; */
+    cursor: pointer;
+}
+
+.img-option img 
+{
+    width: 100%;
+}
+
+.color-options 
+{
+    width: 100%;
+    height: 20px;
+    /* background-color: magenta; */
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.color-option
+{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 4px;
+
+
+}
+
+.color-option p 
+{
+    background-color: black;
+    width: 100%;
+    height: 12px;
+}
+
+
+
+/* booking page css  */
+
+
+.booking-section 
+{
+    width: 48.25%;
+    height: 600px;
+    /* background-color: red; */
+}
+
+.booking-section-img
+{
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.booking-section img 
+{
+    width: 100%;
+
+}
+
+.booking-details
+{
+    width: 100%;
+    padding: 20px;
+}
+
+
+.booking-section:nth-of-type(2)
+{
+    background-color: white;
+    border-radius: 10px;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
